@@ -1,0 +1,13 @@
+train: C:/CPE_310/Project_helmet/train/images
+val: C:/CPE_310/Project_helmet/valid/images
+# test: ../test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: bike-helmets
+  project: bike-helmet-detection-2vdjo
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/bike-helmets/bike-helmet-detection-2vdjo/dataset/2
