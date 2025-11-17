@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['No helmet', 'helmet', 'motorcycle']
+
+roboflow:
+  workspace: swu-f4qdd
+  project: motorcycle-and-helmet-nhsgb
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swu-f4qdd/motorcycle-and-helmet-nhsgb/dataset/4
